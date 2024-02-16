@@ -6,15 +6,17 @@ authors = ["Jedrek00 <jedrek.koscielniak@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.13"
 matplotlib = "^3.8.2"
-pandas = "^2.2.0"
 scipy = "^1.12.0"
 scikit-learn = "^1.4.0"
 requests = "^2.31.0"
 beautifulsoup4 = "^4.12.3"
 lxml = "^5.1.0"
 ipywidgets = "^8.1.2"
+statsmodels = "^0.14.1"
+machine-learning-datasets = "^0.1.23"
+mlxtend = "^0.23.1"
 
 
 [tool.poetry.group.dev.dependencies]
